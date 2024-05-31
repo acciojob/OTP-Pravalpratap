@@ -1,5 +1,3 @@
-
-Copy code
 document.addEventListener("DOMContentLoaded", () => {
     const codes = document.querySelectorAll(".code");
     codes[0].focus();
@@ -16,3 +14,5 @@ document.addEventListener("DOMContentLoaded", () => {
                 }, 10);
             }
         });
+    });
+});
